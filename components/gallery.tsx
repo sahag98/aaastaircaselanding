@@ -3,8 +3,13 @@ import React from "react";
 
 const Gallery = () => {
   return (
-    <div>
-      <h2 className="text-center text-3xl font-bold mb-10">Project Gallery</h2>
+    <div id="gallery" className="lg:px-16 px-4">
+      <h2 className="text-center text-secondary mb-0 lg:mb-2 text-3xl font-bold">
+        Project Gallery
+      </h2>
+      <p className="lg:text-center font-medium lg:text-lg mb-5 lg:mb-10">
+        Here are some of the projects we have done so far
+      </p>
       <div className="flex flex-col lg:flex-row lg:gap-10 gap-5">
         <Image
           className="lg:w-1/2 rounded-sm"
