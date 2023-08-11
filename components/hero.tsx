@@ -4,7 +4,7 @@ import React from "react";
 const Hero = () => {
   return (
     <main className="flex z-20 h-screen lg:px-16 px-4 flex-col items-center justify-center ">
-      <h1 className="text-center lg:text-4xl text-3xl mt-2 mb-5 font-bold">
+      <h1 className="text-center lg:text-4xl text-3xl mt-2 lg:mb-10 mb-5 font-bold">
         From Concept <span className="text-secondary">Design</span> to{" "}
         <span className="text-secondary">Installation</span>
       </h1>
