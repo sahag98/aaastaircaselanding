@@ -75,8 +75,8 @@ const Contact = () => {
         Contact us
       </h2>
       <p className="mb-5 lg:text-base text-sm font-medium text-background">
-        We're here to help! If you have any questions, concerns, or feedback,
-        please don't hesitate to get in touch with us.
+        We&apos;re here to help! If you have any questions, concerns, or
+        feedback, please don&apos;t hesitate to get in touch with us.
       </p>
       <Toaster position="bottom-center" />
       <div className="flex gap-10  rounded-sm">
