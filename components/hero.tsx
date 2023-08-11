@@ -3,8 +3,8 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <main className="flex z-20 h-screen lg:px-16 px-4 flex-col items-center justify-center ">
-      <h1 className="text-center lg:text-4xl text-3xl mb-10 font-bold">
+    <main className="flex z-20 h-screen bg-slate-600 lg:px-16 px-4 flex-col items-center justify-center ">
+      <h1 className="text-center lg:text-4xl text-3xl mb-5 font-bold">
         From Concept <span className="text-secondary">Design</span> to{" "}
         <span className="text-secondary">Installation</span>
       </h1>
@@ -15,7 +15,7 @@ const Hero = () => {
             stairs and custom stair designs. Call us using the button below for
             more information.
           </p>
-          <section className="flex items-center flex-col lg:flex-row gap-5">
+          <section className="flex items-center flex-col lg:flex-row gap-3">
             {/* <a className="" href="tel:949-659-9463"> */}
             <a
               href="tel:949-659-9463"
@@ -61,7 +61,7 @@ const Hero = () => {
 
         <div className="w-full">
           <Image
-            className="object-cover w-full lg:h-[600px] lg:pb-0 pb-10"
+            className="object-cover rounded-sm w-full lg:h-[600px] lg:pb-0 pb-2"
             src="/staircase1.jpg"
             alt="hero img"
             width={1000}

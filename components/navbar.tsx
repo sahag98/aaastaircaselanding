@@ -5,7 +5,7 @@ import React, { useState } from "react";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="py-4 backdrop-opacity-30 backdrop-invert bg-white border z-30 fixed top-0 w-full  lg:px-16 px-4 flex  items-center justify-between">
+    <nav className="py-4  border z-30 fixed top-0 w-full  lg:px-16 px-4 flex  items-center justify-between">
       <h1 className="font-bold text-xl lg:text-2xl">AaaStaircaseRailings</h1>
       <ul className="hidden lg:flex md:flex space-x-6 items-center">
         <Link
