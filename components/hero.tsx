@@ -3,8 +3,8 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <main className="flex z-20 h-[calc(100vh-44px)] lg:px-16 px-4 lg:mt-32 mt-24 flex-col items-center ">
-      <h1 className="text-center lg:text-4xl text-3xl mb-16 font-bold">
+    <main className="flex z-20  h-screen lg:px-16 px-4 mt-5 flex-col items-center justify-center ">
+      <h1 className="text-center lg:text-4xl text-3xl mb-10 font-bold">
         From Concept <span className="text-secondary">Design</span> to{" "}
         <span className="text-secondary">Installation</span>
       </h1>
@@ -15,9 +15,12 @@ const Hero = () => {
             stairs and custom stair designs. Call us using the button below for
             more information.
           </p>
-          <section className="flex items-center flex-col lg:flex-row gap-3">
+          <section className="flex items-center flex-col lg:flex-row gap-5">
             {/* <a className="" href="tel:949-659-9463"> */}
-            <a className="items-center cursor-pointer lg:w-1/3 w-full justify-center flex gap-2 bg-accent px-4 py-3 rounded-md text-background hover:bg-accent-hover transition">
+            <a
+              href="tel:949-659-9463"
+              className="items-center cursor-pointer lg:w-1/3 w-full justify-center flex gap-2 bg-accent px-4 py-3 rounded-md text-background hover:bg-accent-hover transition"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
