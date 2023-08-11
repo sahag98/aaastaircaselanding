@@ -3,14 +3,14 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <main className="flex z-20  h-screen lg:px-16 px-4 mt-5 flex-col items-center justify-center ">
+    <main className="flex z-20 h-screen lg:px-16 px-4 flex-col items-center justify-center ">
       <h1 className="text-center lg:text-4xl text-3xl mb-10 font-bold">
         From Concept <span className="text-secondary">Design</span> to{" "}
         <span className="text-secondary">Installation</span>
       </h1>
       <section className="flex lg:flex-row flex-col-reverse justify-between w-full">
         <div className="space-y-4">
-          <p className="lg:w-3/4 leading-8 text-lg tracking-wide">
+          <p className="lg:w-3/4 leading-8 lg:text-lg tracking-wide">
             Design, production, delivery, installation for floating and curved
             stairs and custom stair designs. Call us using the button below for
             more information.
