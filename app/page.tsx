@@ -10,7 +10,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="">
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <About />
       <Gallery />
