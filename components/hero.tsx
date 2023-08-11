@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <main className="flex z-20 h-[calc(100vh-90px)] lg:px-16 px-4 lg:mt-32 mt-24 flex-col items-center ">
+    <main className="flex z-20 h-[calc(100vh-44px)] lg:px-16 px-4 lg:mt-32 mt-24 flex-col items-center ">
       <h1 className="text-center lg:text-4xl text-3xl mb-16 font-bold">
         From Concept <span className="text-secondary">Design</span> to{" "}
         <span className="text-secondary">Installation</span>
