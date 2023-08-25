@@ -79,7 +79,7 @@ const Contact = () => {
         feedback, please don&apos;t hesitate to get in touch with us.
       </p>
       <Toaster position="bottom-center" />
-      <div className="flex gap-10  rounded-sm">
+      <div className="flex w-full justify-center gap-12 rounded-sm">
         <div className="lg:flex relative hidden">
           <Image
             className="rounded-sm h-full object-cover"
@@ -91,45 +91,45 @@ const Contact = () => {
           <div className="absolute rounded-sm inset-0 bg-gradient-to-t from-gray-950 via-transparent to-transparent opacity-90" />
         </div>
         <Form {...form}>
-          <form className="lg:w-1/2" onSubmit={form.handleSubmit(onSubmit)}>
-            <div className="flex gap-2 w-full">
-              <FormField
-                control={form.control}
-                name="first_name"
-                render={({ field }) => (
-                  <FormItem className="w-1/2">
-                    <FormLabel className="text-background">
-                      First Name
-                    </FormLabel>
-                    <FormControl>
-                      <Input
-                        disabled={loading}
-                        placeholder="Enter first name here"
-                        {...field}
-                      />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-              <FormField
-                control={form.control}
-                name="last_name"
-                render={({ field }) => (
-                  <FormItem className="mb-2 w-1/2">
-                    <FormLabel className="text-background">Last Name</FormLabel>
-                    <FormControl>
-                      <Input
-                        disabled={loading}
-                        placeholder="Enter last name here"
-                        {...field}
-                      />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-            </div>
+          <form
+            className="lg:w-1/2 w-full  pb-3"
+            onSubmit={form.handleSubmit(onSubmit)}
+          >
+            <FormField
+              control={form.control}
+              name="first_name"
+              render={({ field }) => (
+                <FormItem className="w-full mb-2">
+                  <FormLabel className="text-background">First Name</FormLabel>
+                  <FormControl>
+                    <Input
+                      disabled={loading}
+                      placeholder="Enter first name here"
+                      {...field}
+                    />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+            <FormField
+              control={form.control}
+              name="last_name"
+              render={({ field }) => (
+                <FormItem className="mb-2 w-full">
+                  <FormLabel className="text-background">Last Name</FormLabel>
+                  <FormControl>
+                    <Input
+                      disabled={loading}
+                      placeholder="Enter last name here"
+                      {...field}
+                    />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+
             <FormField
               control={form.control}
               name="email"
@@ -164,7 +164,7 @@ const Contact = () => {
                 </FormItem>
               )}
             />
-            <button className="bg-accent hover:bg-accent-hover mt-5 px-4 py-3 w-full rounded-md text-background">
+            <button className="bg-accent hover:bg-accent-hover transition-all mt-5 px-4 py-3 w-full rounded-md text-background">
               {loading ? "Submitting" : "Submit"}
             </button>
           </form>

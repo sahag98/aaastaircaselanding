@@ -16,7 +16,6 @@ const Hero = () => {
             more information.
           </p>
           <section className="flex items-center flex-col lg:flex-row gap-3">
-            {/* <a className="" href="tel:949-659-9463"> */}
             <a
               href="tel:949-659-9463"
               className="items-center cursor-pointer lg:w-1/3 w-full justify-center flex gap-2 bg-accent px-4 py-3 rounded-md text-background hover:bg-accent-hover transition"
@@ -37,7 +36,7 @@ const Hero = () => {
               </svg>
               Free Consultation
             </a>
-            {/* </a> */}
+
             <button className="items-center  lg:w-1/4 w-full justify-center flex gap-2 border px-4 py-3 rounded-md text-secondary">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

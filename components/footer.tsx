@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="h-40 lg:h-28 py-5 lg:px-16 px-4 flex flex-col-reverse items-center lg:flex-row lg:justify-between justify-between">
+    <div className="h-36 lg:h-28 py-5 lg:px-16 px-4 flex flex-col-reverse items-center lg:flex-row lg:justify-between justify-between">
       <ul className="flex space-x-6 lg:justify-normal justify-center items-center">
         <li className="cursor-pointer hover:text-accent transition">
           About us
