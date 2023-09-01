@@ -9,14 +9,13 @@ const Hero = () => {
       id="home"
       className="flex z-20  h-screen lg:px-16 px-4 flex-col items-center justify-center"
     >
-      <section className="flex lg:flex-row mt-5 flex-col-reverse justify-between items-center w-full">
-        <div className="space-y-6">
+      <section className="flex lg:flex-row lg:mt-5 mt-2 flex-col-reverse justify-between items-center w-full">
+        <div className="space-y-2">
           <AnimatedTextWord text="From Concept Design to Installation" />
 
           <p className="lg:w-3/4 leading-8 lg:text-lg tracking-wide">
             Design, production, delivery, installation for floating and curved
-            stairs and custom stair designs. Call us using the button below for
-            more information.
+            stairs and custom stair designs.
           </p>
           <section className="flex items-center flex-col lg:flex-row gap-3">
             <a
