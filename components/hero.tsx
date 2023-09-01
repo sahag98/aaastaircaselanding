@@ -9,18 +9,18 @@ const Hero = () => {
       id="home"
       className="flex z-20  h-screen lg:px-16 px-4 flex-col items-center justify-center"
     >
-      <section className="flex lg:flex-row lg:mt-5 mt-2 flex-col-reverse justify-between items-center w-full">
-        <div className="space-y-2">
+      <section className="flex lg:flex-row mt-5 flex-col-reverse justify-between items-center w-full">
+        <div className="space-y-6">
           <AnimatedTextWord text="From Concept Design to Installation" />
 
-          <p className="lg:w-3/4 leading-8 lg:text-lg tracking-wide">
+          <p className="lg:w-4/5 leading-8 lg:text-lg tracking-wide">
             Design, production, delivery, installation for floating and curved
             stairs and custom stair designs.
           </p>
           <section className="flex items-center flex-col lg:flex-row gap-3">
             <a
               href="tel:949-659-9463"
-              className="items-center cursor-pointer lg:w-1/3 md:w-1/2 w-full justify-center flex gap-2 bg-accent px-4 py-3 rounded-md text-background hover:bg-accent-hover transition"
+              className="items-center cursor-pointer md:w-1/2 w-full justify-center flex gap-2 bg-accent px-4 py-3 rounded-md text-background hover:bg-accent-hover transition"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@ const Hero = () => {
 
             <Link
               href="#about"
-              className="items-center  lg:w-1/4 w-full md:w-1/2 justify-center flex gap-2 border px-4 py-3 rounded-md bg-[#eef7fe] hover:bg-[#deeffe] transition-all text-secondary"
+              className="items-center  lg:w-1/3 w-full md:w-1/2 justify-center flex gap-2 border px-4 py-3 rounded-md bg-[#eef7fe] hover:bg-[#deeffe] transition-all text-secondary"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
