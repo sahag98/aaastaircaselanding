@@ -15,7 +15,7 @@ const About = () => {
       </h2>
       <div className="flex flex-col shadow-xl lg:w-1/2 z-30 bg-[#ffffff] rounded-md p-5 lg:gap-0 md:gap-0 gap-5 items-center justify-center">
         <p className="tracking-wide text-center lg:leading-8 leading-7 justify-center items-center self-center align-middle">
-          We’re a custom manufacturer of modern staircases and railings and
+          We&apos;re a custom manufacturer of modern staircases and railings and
           we're born out of a dream to hire quality people to create quality
           products to simplify the modern railing market. We engineer, design,
           manufacturer, pack and ship every item in our own facilities and
