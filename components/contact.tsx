@@ -88,7 +88,6 @@ const Contact = () => {
             width={500}
             height={500}
           />
-          <div className="absolute rounded-sm inset-0 bg-gradient-to-t from-gray-950 via-transparent to-transparent opacity-90" />
         </div>
         <Form {...form}>
           <form

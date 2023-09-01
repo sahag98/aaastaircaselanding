@@ -1,34 +1,43 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="py-4 backdrop-opacity-30 backdrop-invert bg-white border z-30 fixed top-0 w-full  lg:px-16 px-4 flex  items-center justify-between">
-      <h1 className="font-bold text-xl lg:text-2xl">AaaStaircaseRailings</h1>
+    <nav className="py-2 backdrop-opacity-30 backdrop-invert bg-white border z-30 fixed top-0 w-full  lg:px-16 px-4 flex  items-center justify-between">
+      <Image
+        className=""
+        width={220}
+        height={150}
+        src="/comp23.png"
+        alt="logo"
+      />
+      {/* <h1 className="font-bold text-xl lg:text-2xl">AaaStaircaseRailings</h1> */}
       <ul className="hidden lg:flex md:flex space-x-6 items-center">
         <Link
+          href="#home"
+          className="cursor-pointer text-sm hover:text-accent transition"
+        >
+          Home
+        </Link>
+        <Link
           href="#about"
-          className="cursor-pointer hover:text-accent transition"
+          className="cursor-pointer text-sm hover:text-accent transition"
         >
           About us
         </Link>
         <Link
           href="#gallery"
-          className="cursor-pointer hover:text-accent transition"
+          className="cursor-pointer text-sm hover:text-accent transition"
         >
           Gallery
         </Link>
-        <Link
-          href="#reviews"
-          className="cursor-pointer hover:text-accent transition"
-        >
-          Reviews
-        </Link>
+
         <Link
           href="#contact"
-          className="cursor-pointer hover:text-accent transition"
+          className="cursor-pointer text-sm hover:text-accent transition"
         >
           Contact
         </Link>

@@ -2,12 +2,15 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-	],
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+  ],
   theme: {
+    extend: {
+      "about-us": "url('/public/about-img.png')",
+    },
     container: {
       center: true,
       padding: "2rem",
@@ -40,7 +43,7 @@ module.exports = {
         },
         accent: {
           DEFAULT: "hsl(var(--accent))",
-          hover:"hsl(var(--accent-hover))",
+          hover: "hsl(var(--accent-hover))",
           foreground: "hsl(var(--accent-foreground))",
         },
         popover: {
@@ -74,4 +77,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};

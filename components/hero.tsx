@@ -1,15 +1,18 @@
 import Image from "next/image";
 import React from "react";
+import AnimatedTextWord from "./AnimatedTextWord";
+import Link from "next/link";
 
 const Hero = () => {
   return (
-    <main className="flex z-20 h-screen lg:px-16 px-4 flex-col items-center justify-center ">
-      <h1 className="text-center lg:text-4xl text-3xl mt-2 lg:mb-10 mb-5 font-bold">
-        From Concept <span className="text-secondary">Design</span> to{" "}
-        <span className="text-secondary">Installation</span>
-      </h1>
-      <section className="flex lg:flex-row flex-col-reverse justify-between w-full">
-        <div className="space-y-4">
+    <main
+      id="home"
+      className="flex z-20  h-screen lg:px-16 px-4 flex-col items-center justify-center"
+    >
+      <section className="flex lg:flex-row mt-5 flex-col-reverse justify-between items-center w-full">
+        <div className="space-y-6">
+          <AnimatedTextWord text="From Concept Design to Installation" />
+
           <p className="lg:w-3/4 leading-8 lg:text-lg tracking-wide">
             Design, production, delivery, installation for floating and curved
             stairs and custom stair designs. Call us using the button below for
@@ -18,7 +21,7 @@ const Hero = () => {
           <section className="flex items-center flex-col lg:flex-row gap-3">
             <a
               href="tel:949-659-9463"
-              className="items-center cursor-pointer lg:w-1/3 w-full justify-center flex gap-2 bg-accent px-4 py-3 rounded-md text-background hover:bg-accent-hover transition"
+              className="items-center cursor-pointer lg:w-1/3 md:w-1/2 w-full justify-center flex gap-2 bg-accent px-4 py-3 rounded-md text-background hover:bg-accent-hover transition"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +40,10 @@ const Hero = () => {
               Free Consultation
             </a>
 
-            <button className="items-center  lg:w-1/4 w-full justify-center flex gap-2 border px-4 py-3 rounded-md text-secondary">
+            <Link
+              href="#about"
+              className="items-center  lg:w-1/4 w-full md:w-1/2 justify-center flex gap-2 border px-4 py-3 rounded-md bg-[#eef7fe] hover:bg-[#deeffe] transition-all text-secondary"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -54,13 +60,13 @@ const Hero = () => {
                 <path d="m21 21-4.3-4.3" />
               </svg>
               Who are we?
-            </button>
+            </Link>
           </section>
         </div>
 
-        <div className="w-full">
+        <div className="w-full shadow-xl mb-2 sm:h-[500px] md:h-[500px] lg:h-[700px] md h-72">
           <Image
-            className="object-cover rounded-sm w-full lg:h-[600px] lg:pb-0 pb-2"
+            className="object-cover rounded-sm w-full lg:h-[700px] h-full lg:pb-0"
             src="/staircase1.jpg"
             alt="hero img"
             width={1000}
@@ -68,21 +74,23 @@ const Hero = () => {
           />
         </div>
       </section>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="40"
-        height="40"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="#FD665E"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="lucide animate-pulse mt-5 lucide-chevrons-down"
-      >
-        <path d="m7 6 5 5 5-5" />
-        <path d="m7 13 5 5 5-5" />
-      </svg>
+      <div className="absolute bottom-3">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="40"
+          height="40"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#FD665E"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="lucide animate-pulse mt-5 lucide-chevrons-down"
+        >
+          <path d="m7 6 5 5 5-5" />
+          <path d="m7 13 5 5 5-5" />
+        </svg>
+      </div>
     </main>
   );
 };
