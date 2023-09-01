@@ -64,7 +64,7 @@ const Hero = () => {
           </section>
         </div>
 
-        <div className="w-full shadow-xl mb-2 sm:h-[500px] md:h-[500px] lg:h-[700px] md h-72">
+        <div className="w-full shadow-xl mb-2 sm:h-[500px] md:h-[500px] lg:h-[700px] md">
           <Image
             className="object-cover rounded-sm w-full lg:h-[700px] h-full lg:pb-0"
             src="/staircase1.jpg"
