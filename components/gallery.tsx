@@ -34,7 +34,7 @@ const Gallery = () => {
           </p>
         </div>
       </div>
-      <div className="flex lg:flex-row-reverse flex-col  mt-20 lg:gap-10 gap-5">
+      <div className="flex lg:flex-row-reverse flex-col  mt-10 lg:mt-20 lg:gap-10 gap-5">
         <Image
           className="lg:w-1/2 rounded-sm"
           src="/gallery2.jpg"
@@ -58,7 +58,7 @@ const Gallery = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row lg:gap-10 gap-5 mt-20">
+      <div className="flex flex-col lg:flex-row lg:gap-10 gap-5  mt-10 lg:mt-20">
         <Image
           className="lg:w-1/2 rounded-sm"
           src="/gallery3.jpg"
@@ -82,7 +82,7 @@ const Gallery = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row-reverse mt-20 lg:gap-10 gap-5">
+      <div className="flex flex-col lg:flex-row-reverse  mt-10 lg:mt-20 lg:gap-10 gap-5">
         <Image
           className="lg:w-1/2 rounded-sm"
           src="/gallery4.jpg"
