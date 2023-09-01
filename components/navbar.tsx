@@ -79,7 +79,7 @@ const Navbar = () => {
         </button>
       </a>
       {open && (
-        <div className="fixed z-20  bg-background border flex justify-end shadow top-0 right-0 h-screen w-3/4">
+        <div className="fixed z-50  bg-background border flex justify-end shadow top-0 right-0 h-screen w-3/4">
           <div className="relative items-center gap-8 flex flex-col justify-center w-full">
             <svg
               onClick={() => setOpen(false)}
