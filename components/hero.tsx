@@ -10,7 +10,7 @@ const Hero = () => {
       className="flex z-20  h-screen lg:px-16 px-4 flex-col items-center justify-center"
     >
       <section className="flex lg:flex-row mt-5 flex-col-reverse justify-between items-center w-full">
-        <div className="space-y-6">
+        <div className="space-y-2 lg:space-y-6">
           <AnimatedTextWord text="From Concept Design to Installation" />
 
           <p className="lg:w-4/5 leading-8 lg:text-lg tracking-wide">
@@ -73,7 +73,7 @@ const Hero = () => {
           />
         </div>
       </section>
-      <div className="absolute bottom-3">
+      <div className="absolute bottom-0">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="40"
