@@ -92,7 +92,7 @@ const Navbar = () => {
               strokeWidth="2"
               strokeLinecap="round"
               stroke-Linejoin="round"
-              className="lucide absolute top-3 right-3 lucide-x"
+              className="lucide absolute top-4 right-3 lucide-x"
             >
               <path d="M18 6 6 18" />
               <path d="m6 6 12 12" />
